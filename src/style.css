@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+body {
+    background-color: #D5E7B8;
+    max-width: 2000px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+}
+
+.topHeader {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: white;
+}
+
+#logo {
+    width: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header>form>input {
+    margin-top: 1rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 0.3rem;
+    width: 15rem;
+}
+
+.header>form>button {
+    padding: 0.3rem;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header>form>button:hover {
+    cursor: pointer;
+    color: #F68E5F;
+}
+
+#top-text {
+    text-align: center;
+}
+
+#productSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.eachProductCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25rem;
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.eachProductCard>img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 20rem;
+    height: 15rem
+}
+
+.eachProductCard>h2,
+p {
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+.descriptionText {
+    font-style: italic;
+}
+
+.addToCartButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.addToCartButtonDiv>button {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #D5E7B8;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.addToCartButtonDiv>button:hover {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: auto;
+    background-color: #D5E7B8;
+    font-weight: bold;
+}
